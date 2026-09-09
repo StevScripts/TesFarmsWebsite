@@ -1,25 +1,26 @@
 import type { Metadata, Viewport } from "next";
-import { Bitter, Source_Sans_3 } from "next/font/google";
+import { Bricolage_Grotesque, Source_Sans_3 } from "next/font/google";
 import { SiteHeader } from "@/components/site/site-header";
 import { SiteFooter } from "@/components/site/site-footer";
 import "./globals.css";
 
-const bitter = Bitter({
+const display = Bricolage_Grotesque({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-site-heading",
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-display",
   display: "swap",
 });
 
 const sourceSans = Source_Sans_3({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
-  variable: "--font-site-body",
+  variable: "--font-body",
   display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Tes Farms LLC \u2014 Indian Fruit Trees & Plants in Central Florida",
+  metadataBase: new URL("https://tessfarms.com"),
+  title: "Tes Farms | Indian Plants & Fruit Trees in Central Florida",
   description:
     "Alphonso mango, curry leaf, jasmine, guava, parijat & more. Indian plants grown in Central Florida. Serving Lake Nona, St. Cloud, Kissimmee & Orlando.",
   keywords: [
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#4a7c59",
+  themeColor: "#f3a36c",
 };
 
 export default function RootLayout({
@@ -52,18 +53,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${bitter.variable} ${sourceSans.variable} font-site-body bg-site-cream text-site-soil`}
-      >
-        <a
-          href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-site-forest focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:text-sm focus:font-semibold"
-        >
+    <html lang="en" data-scroll-behavior="smooth">
+      <body className={`${display.variable} ${sourceSans.variable}`}>
+        <a href="#main" className="skip-link">
           Skip to content
         </a>
         <SiteHeader />
-        <main id="main" className="min-h-screen">{children}</main>
+        <main id="main" tabIndex={-1}>
+          {children}
+        </main>
         <SiteFooter />
       </body>
     </html>

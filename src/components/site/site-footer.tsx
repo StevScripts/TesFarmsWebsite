@@ -1,51 +1,47 @@
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 import { siteContent } from "@/data/site-content";
 
 export function SiteFooter() {
   const { business } = siteContent;
-
   return (
-    <footer className="bg-site-forest text-white/90">
-      <div className="mx-auto max-w-6xl px-5 sm:px-8 py-8 sm:py-10">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="text-center sm:text-left">
-            <p className="font-site-heading font-bold text-base text-white">
-              Tes Farms LLC
-            </p>
-            <p className="text-xs text-white/60 mt-1">
-              {business.hours.note} &middot; {business.address.serving}
-            </p>
+    <footer className="site-footer">
+      <div className="page-width">
+        <div className="footer-top">
+          <div>
+            <Link href="/" className="wordmark">
+              tes farms.
+            </Link>
+            <p>Indian roots. Florida grown.</p>
           </div>
-
-          <div className="flex items-center gap-2 text-sm text-white/70">
+          <nav aria-label="Social links">
             <a
-              href={`tel:${business.phone.replace(/\D/g, "")}`}
-              className="inline-flex items-center px-3 py-2.5 min-h-[44px] rounded-lg hover:text-white hover:bg-white/10 transition-colors"
+              href={business.social.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              {business.phone}
+              Instagram <ArrowUpRight size={17} aria-hidden="true" />
             </a>
             <a
               href={business.social.youtube}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-3 py-2.5 min-h-[44px] rounded-lg hover:text-white hover:bg-white/10 transition-colors"
             >
-              YouTube
+              YouTube <ArrowUpRight size={17} aria-hidden="true" />
             </a>
             <a
               href={business.social.facebook}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-3 py-2.5 min-h-[44px] rounded-lg hover:text-white hover:bg-white/10 transition-colors"
             >
-              Facebook
+              Facebook <ArrowUpRight size={17} aria-hidden="true" />
             </a>
-          </div>
+          </nav>
         </div>
-
-        <div className="mt-6 pt-4 border-t border-white/10 text-center">
-          <p className="text-xs text-white/60">
-            &copy; {new Date().getFullYear()} Tes Farms LLC. All rights reserved.
-          </p>
+        <div className="footer-bottom">
+          <span>© {new Date().getFullYear()} Tes Farms LLC</span>
+          <span>Lake Nona · St. Cloud · Kissimmee · Orlando</span>
+          <Link href="/contact">Visits by appointment</Link>
         </div>
       </div>
     </footer>

@@ -51,3 +51,7 @@ Like visiting a knowledgeable uncle's garden. George is an educator who genuinel
 - Clear, simple language; avoid jargon and unnecessarily complex sentences
 - Reduced motion respected via prefers-reduced-motion
 - No bilingual content for now, but keep copy simple enough that it doesn't alienate non-native English readers
+
+## Public presence
+
+George’s public name is George Kurian. His channels are Garden and Kitchen Pals on Instagram (@gardenandkitchenpals) and gkp15 on YouTube. The user specifically asked to feature his real photos and talk about the person behind the nursery. On September 9, 2026, YouTube displayed 49K subscribers. His videos include Malayalam demonstrations of grafting, plant care, vegetables, and kitchen topics. Use his public posts and practical teaching to build recognition. Keep biographies grounded in the supplied context and documented public sources; do not invent credentials, quotations, or family details. See docs/george-sources.md.

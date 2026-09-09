@@ -20,127 +20,126 @@ export const plantCategories: PlantCategory[] = [
     slug: "mangoes",
     name: "Mangoes",
     intro:
-      "We carry over a dozen mango varieties suited to Central Florida, from beloved Indian cultivars to Florida favorites. Trees are available in multiple sizes.",
+      "Explore Alphonso, Kesar, and other mango varieties at Tes Farms in Central Florida. Ask George about availability and sizes.",
     icon: "\u{1F96D}",
     varieties: [
       {
         id: "alphonso",
         name: "Alphonso",
-        season: "Mid Season",
+        season: "Midseason",
         description:
-          "Widely regarded as the king of mangoes. Rich, creamy flesh with an intensely sweet, aromatic flavor prized across India and now thriving in Florida yards.",
+          "Rich, creamy flesh with a sweet, aromatic flavor. An Indian favorite.",
       },
       {
         id: "super-alphonso",
         name: "Super Alphonso",
-        season: "Mid Season",
+        season: "Midseason",
         description:
-          "A vigorous Florida selection of the classic Alphonso with improved hardiness and larger fruit. Same beloved flavor, better suited to our climate.",
+          "A vigorous Alphonso selection with larger fruit and the familiar sweet flavor.",
       },
       {
         id: "kesar",
         name: "Kesar",
-        season: "Mid Season",
+        season: "Midseason",
         description:
-          "Saffron-colored flesh with a distinctively sweet, slightly tart flavor. One of Gujarat's most prized varieties, thriving in Central Florida heat.",
+          "Saffron-colored flesh with a sweet, slightly tart flavor. A Gujarat favorite.",
       },
       {
         id: "kent",
         name: "Kent",
-        season: "Late Season",
+        season: "Late season",
         description:
-          "Excellent flavor with large fruit and very little fiber. Considered by many to be one of the best tasting Florida mangoes. Best eaten before the fruit gets overly ripe.",
+          "Large fruit with very little fiber. Best eaten before it becomes overly ripe.",
       },
       {
         id: "neelum",
         name: "Neelum",
-        season: "Late Season",
+        season: "Late season",
         description:
-          "A late-season South Indian variety with firm, fiberless flesh. Sweet and fragrant, producing fruit when most other varieties have finished for the year.",
+          "A South Indian mango with firm, fiberless flesh and a sweet fragrance.",
       },
       {
         id: "valencia-pride",
         name: "Valencia Pride",
-        season: "Mid Season",
+        season: "Midseason",
         description:
-          "Vigorous, large-growing tree that doubles as an excellent shade tree. Produces attractive, elongated fruit with smooth, fiberless flesh. Relatively cold hardy.",
+          "A large shade tree with elongated, fiberless fruit. Best with room to grow.",
       },
       {
         id: "nam-doc-mai",
         name: "Nam Doc Mai",
-        season: "Early/Mid Season",
+        season: "Early to midseason",
         description:
-          "A Thai favorite with semi-dwarf growth, great for pot culture. Green to yellow skin with no fiber. Can produce multiple crops and is excellent eaten green or ripe.",
+          "A semi-dwarf Thai mango suited to containers. Fiberless fruit, eaten green or ripe.",
       },
       {
         id: "glenn",
         name: "Glenn",
-        season: "Mid Season",
+        season: "Midseason",
         description:
-          "Very attractive appearance with a mild, sweet flavor. Virtually fiberless with excellent eating quality and consistent production. Turns yellow at the base when ripe.",
+          "Mild, sweet, nearly fiberless fruit that turns yellow at the base when ripe.",
       },
       {
         id: "pickering",
         name: "Pickering",
-        season: "Mid Season",
+        season: "Midseason",
         description:
-          "A condo mango perfect for limited space. Can be maintained at just six feet in a container, making it ideal for pot culture. Rich, sweet flavor.",
+          "A compact mango for containers and small yards. Can be maintained around six feet.",
       },
       {
         id: "cogshall",
         name: "Cogshall",
-        season: "Mid Season",
+        season: "Midseason",
         description:
-          "One of the best varieties for indoor potting culture. Ultra-compact grower with a slow growth habit, perfect for small yards or as a patio mango.",
+          "A slow-growing, compact mango suited to patio containers and small yards.",
       },
       {
         id: "carrie",
         name: "Carrie",
-        season: "Mid Season",
+        season: "Midseason",
         description:
-          "Flavor is the most outstanding feature. Absolutely no fiber with extremely rich, sweet, aromatic flesh. A compact grower that produces heavily.",
+          "A compact grower with rich, sweet, aromatic fruit and no fiber.",
       },
       {
         id: "coconut-cream",
         name: "Coconut Cream",
-        season: "Mid Season",
+        season: "Midseason",
         description:
-          "A delicious creamy coconut-mango flavor in a very large, juicy fruit. One of the most colorful mangoes with bright red-orange-yellow skin and bright orange pulp. Fiberless.",
+          "Large, juicy, fiberless fruit with a creamy coconut-mango flavor.",
       },
       {
         id: "haden",
         name: "Haden",
-        season: "Mid Season",
+        season: "Midseason",
         description:
-          "Originated in Florida and has been grown since 1910. Good flavor with eye-catching fruit featuring a deep yellow base overlaid with a crimson blush.",
+          "A Florida classic with yellow fruit, a crimson blush, and good flavor.",
       },
       {
         id: "dot",
         name: "Dot",
-        season: "Mid Season",
+        season: "Midseason",
         description:
-          "One of the best mangoes available. Almost fiberless fruits with an oblong, uniform shape. Average fruit size around 20 ounces.",
+          "Nearly fiberless, oblong fruit averaging around 20 ounces.",
       },
       {
         id: "lemon-zest",
         name: "Lemon Zest",
-        season: "Early Season",
+        season: "Early season",
         description:
-          "A unique variety with an excellent sweet citrus flavor that sets it apart from other mangoes. One of the earliest to fruit each season.",
+          "Sweet citrus flavor from one of the earlier-fruiting mango varieties.",
       },
       {
         id: "tommy-atkins",
         name: "Tommy Atkins",
-        season: "Early Season",
-        description:
-          "The most extensively planted export mango in the Western Hemisphere. Known for its outstanding color, disease resistance, and storage qualities.",
+        season: "Early season",
+        description: "Colorful fruit known for keeping well in storage.",
       },
       {
         id: "multi-graft",
         name: "Multi Graft",
         season: "Various",
         description:
-          "Multiple mango varieties grafted onto a single tree. Get three to five different mangoes from one spot in your yard.",
+          "Three to five mango varieties grafted onto one tree, saving space in the yard.",
       },
     ],
   },
@@ -148,7 +147,7 @@ export const plantCategories: PlantCategory[] = [
     slug: "avocados",
     name: "Avocados",
     intro:
-      "Florida avocados thrive in our warm climate and produce fruit that's hard to find in grocery stores. These varieties are selected for Central Florida growing conditions.",
+      "Compare avocado varieties, flavors, and fruiting seasons at Tes Farms in Central Florida.",
     icon: "\u{1F951}",
     varieties: [
       {
@@ -156,450 +155,449 @@ export const plantCategories: PlantCategory[] = [
         name: "Brogdon",
         season: "Jul\u2013Aug",
         description:
-          "Cold hardy tree producing purple-skinned fruit with juicy, buttery-flavored yellow flesh. Large fruit can reach 14 to 24 ounces.",
+          "Purple-skinned fruit with buttery yellow flesh, typically 14 to 24 ounces.",
       },
       {
         id: "choquette",
         name: "Choquette",
         season: "Dec\u2013Mar",
         description:
-          "Produces incredibly large fruit weighing 20 to 40 ounces. Glossy dark green skin with an oval shape and smooth, creamy flesh.",
+          "Very large fruit, 20 to 40 ounces, with glossy green skin and creamy flesh.",
       },
       {
         id: "monroe",
         name: "Monroe",
         season: "Nov\u2013Jan",
         description:
-          "Superb cold hardy variety and a commercial favorite in Florida. Large, abundant fruit with excellent eating quality.",
+          "Large fruit from an abundant producer and established Florida variety.",
       },
       {
         id: "day",
         name: "Day",
         season: "Sep\u2013Oct",
         description:
-          "One of the easiest avocados to fruit in a pot. Plants can produce at about three feet in height. Medium-sized fruit with a tapered neck and buttery sweet taste.",
+          "Suited to containers, with medium fruit and a buttery, sweet taste.",
       },
       {
         id: "lula",
         name: "Lula",
         season: "Dec\u2013Mar",
         description:
-          "A classic Florida avocado with good cold tolerance. Large, pear-shaped fruit with mild flavor. Excellent for guacamole.",
+          "Large, pear-shaped fruit with a mild flavor. A good choice for guacamole.",
       },
       {
         id: "winter-mexican",
         name: "Winter Mexican",
         season: "Nov\u2013Jan",
         description:
-          "Small, dark-skinned fruit with rich, nutty flavor similar to Hass. Among the most cold-tolerant avocados available. Fruits in winter when others don't.",
+          "Small, dark-skinned fruit with a rich, nutty flavor similar to Hass.",
       },
       {
         id: "mexicola",
         name: "Mexicola",
         season: "Jul",
         description:
-          "Excellent quality, frost-hardy variety. Mexican-type fruit weighing 6 to 12 ounces with thin black skin. Compact tree suited to full sun or light shade.",
+          "A compact tree with thin, black-skinned fruit weighing 6 to 12 ounces.",
       },
       {
         id: "hall",
         name: "Hall",
         season: "Oct\u2013Nov",
         description:
-          "Related to Choquette with a similar shape and size but nuttier, drier, thicker flesh while still being juicy and fruity. A reliable producer.",
+          "Large, juicy fruit with nuttier, firmer flesh than Choquette.",
       },
       {
         id: "simmonds",
         name: "Simmonds",
         season: "Jul\u2013Sep",
         description:
-          "South Florida's most popular early-season avocado. Good production with exceptional quality and superb eating character.",
+          "An established Florida avocado known for early fruit and good eating quality.",
       },
       {
         id: "oro-negro",
         name: "Oro Negro",
         season: "Dec\u2013Jan",
         description:
-          "\"Black gold\" in Spanish. Rich and buttery flesh with a creamy texture. Dark skin that deepens as the fruit matures.",
+          "Dark-skinned fruit with rich, buttery flesh and a creamy texture.",
       },
       {
         id: "super-hass",
         name: "Super Hass",
         season: "Sep\u2013Oct",
         description:
-          "Nubby, black-skinned fruit prized for its taste. Rich nutty flavor and high oil content. A single fruit can weigh over a pound.",
+          "Rich, nutty fruit with textured black skin. Individual fruit can exceed a pound.",
       },
       {
         id: "nishikawa",
         name: "Nishikawa",
         season: "Nov\u2013Dec",
         description:
-          "Originated in Hawaii. Oval fruit resembling Hass but larger with very high oil content. Creamy, rich flavor.",
+          "A Hawaiian variety with large, oval fruit and rich, creamy flesh.",
       },
     ],
   },
   {
     slug: "fruit-trees",
-    name: "Fruit Trees",
+    name: "Fruit trees",
     intro:
-      "Beyond mangoes and avocados, we carry a wide selection of tropical and subtropical fruit trees. Many of these produce fruit you can't find in any American grocery store.",
+      "Explore guava, lychee, jackfruit, chikoo, and other tropical fruit trees at Tes Farms.",
     icon: "\u{1F333}",
     varieties: [
       {
         id: "dragon-fruit",
         name: "Dragon Fruit",
         description:
-          "A climbing cactus producing striking pink or white-fleshed fruit. Easy to grow on a trellis or fence in full Florida sun.",
+          "A climbing cactus with pink or white-fleshed fruit. Needs a trellis or support.",
       },
       {
         id: "lychee",
         name: "Lychee",
         description:
-          "Sweet, floral, translucent flesh inside a rough red shell. A beloved fruit across South and Southeast Asia, fruiting well in Central Florida.",
+          "Sweet, floral fruit with translucent flesh inside a rough red shell.",
       },
       {
         id: "longan",
         name: "Longan",
         description:
-          "Related to lychee with honey-sweet flesh and a smoky undertone. More cold-tolerant than lychee, producing reliably in our area.",
+          "A lychee relative with honey-sweet flesh and a subtle smoky flavor.",
       },
       {
         id: "guava",
         name: "Guava",
         description:
-          "Fragrant tropical fruit used in juices, jams, and eaten fresh. Fast-growing trees that produce fruit within a year or two of planting.",
+          "Fragrant fruit for eating fresh, making juice, or cooking into jam.",
       },
       {
         id: "papaya",
         name: "Papaya",
         description:
-          "Fast-growing tropical producing sweet, orange-fleshed fruit. Can bear fruit within a year of planting in warm, sheltered spots.",
+          "A fast-growing tropical with sweet orange flesh. Needs a warm, sheltered spot.",
       },
       {
         id: "pomegranate",
         name: "Pomegranate",
         description:
-          "Jewel-toned seeds packed with flavor. Drought-tolerant and heat-loving, pomegranates are well-suited to Florida's sandy soils.",
+          "Tangy, jewel-like seeds from a heat-loving, drought-tolerant plant.",
       },
       {
         id: "jackfruit",
         name: "Jackfruit",
         description:
-          "The world's largest tree-borne fruit, with sweet, pineapple-flavored segments. A striking specimen tree for larger yards.",
+          "Large fruit with sweet, pineapple-like segments. Needs space in a larger yard.",
       },
       {
         id: "sapodilla",
         name: "Sapodilla (Chikoo)",
         description:
-          "Brown-sugar sweetness in a small, unassuming fruit. Known as chikoo across India, this is a low-maintenance favorite.",
+          "Known as chikoo, with soft brown flesh and a brown-sugar sweetness.",
       },
       {
         id: "fig",
         name: "Fig",
         description:
-          "Sweet, jammy fruit from a tree that thrives in Florida heat. Multiple crops per year with varieties selected for our humid climate.",
+          "Sweet, jammy fruit, with varieties selected for Florida’s humid climate.",
       },
       {
         id: "starfruit",
         name: "Starfruit (Carambola)",
         description:
-          "Crisp, juicy fruit with a star-shaped cross-section. Tangy-sweet flavor, beautiful on the tree and on the plate.",
+          "Crisp, juicy, tangy-sweet fruit that forms a star when sliced.",
       },
       {
         id: "banana",
         name: "Banana",
         description:
-          "Multiple varieties suited to Florida's climate. Fast-growing plants that add a tropical look to any yard while producing delicious fruit.",
+          "Fast-growing tropical plants, with several varieties suited to Florida.",
       },
       {
         id: "passion-fruit",
         name: "Passion Fruit",
         description:
-          "Intensely aromatic, tangy-sweet pulp perfect for juices, desserts, and eating fresh. A vigorous vine that fruits prolifically on a trellis.",
+          "A vigorous vine with tangy, aromatic fruit for juices and desserts. Needs a trellis.",
       },
       {
         id: "soursop",
         name: "Soursop",
         description:
-          "Large, spiny green fruit with creamy white flesh. Flavor combines strawberry and pineapple with a citrus tang. Popular for juices and smoothies.",
+          "Large green fruit with creamy, tangy-sweet flesh, popular in juices and smoothies.",
       },
       {
         id: "sugar-apple",
         name: "Sugar Apple",
         description:
-          "Custard-like flesh with a sweet, pleasant flavor. Each segment contains a seed surrounded by creamy pulp. A tropical classic.",
+          "Sweet, custard-like flesh in segments, each surrounding a seed.",
       },
       {
         id: "atemoya",
         name: "Atemoya",
         description:
-          "A hybrid of sugar apple and cherimoya with smooth, custard-like flesh. Sweet, vanilla-scented flavor with fewer seeds than sugar apple.",
+          "A sugar apple–cherimoya hybrid with creamy, vanilla-scented flesh and fewer seeds.",
       },
       {
         id: "mamey-sapote",
         name: "Mamey Sapote",
         description:
-          "Salmon-colored flesh with a flavor reminiscent of sweet potato, pumpkin, and almond. A prized fruit across Latin America and the Caribbean.",
+          "Salmon-colored flesh with notes of sweet potato, pumpkin, and almond.",
       },
       {
         id: "black-sapote",
         name: "Black Sapote",
         description:
-          "Known as the chocolate pudding fruit for its dark, creamy flesh. Mild, sweet flavor that works beautifully in smoothies and desserts.",
+          "The chocolate pudding fruit: dark, creamy flesh with a mild, sweet flavor.",
       },
       {
         id: "canistel",
         name: "Canistel (Egg Fruit)",
         description:
-          "Dense, creamy flesh with a flavor like sweet potato custard or pumpkin pie. Bright yellow-orange color with a smooth texture.",
+          "Dense, yellow-orange flesh with a texture and flavor like sweet potato custard.",
       },
       {
         id: "persimmon",
         name: "Persimmon",
         description:
-          "Sweet, honey-flavored fruit that thrives in Florida. Both astringent and non-astringent varieties available. Beautiful fall color.",
+          "Honey-sweet fruit, with both astringent and non-astringent varieties in the collection.",
       },
       {
         id: "loquat",
         name: "Loquat",
         description:
-          "One of the first fruits to ripen each spring. Sweet-tart clusters of small yellow-orange fruit from a handsome evergreen tree.",
+          "Small, sweet-tart yellow fruit that ripens in spring on an evergreen tree.",
       },
       {
         id: "grapes",
         name: "Grapes",
         description:
-          "Muscadine and bunch grape varieties suited to Florida's heat and humidity. Sweet fruit for fresh eating, jams, and homemade wine.",
+          "Muscadine and bunch grapes suited to Florida, for fresh eating or preserves.",
       },
       {
         id: "pineapple",
         name: "Pineapple",
         description:
-          "Grow your own tropical pineapples right in your Florida yard. Plants are easy to maintain and produce sweet, fragrant fruit.",
+          "A low-growing tropical with sweet, fragrant fruit. Easy to maintain.",
       },
       {
         id: "jujube",
         name: "Jujube",
         description:
-          "Also known as Chinese date. Crisp, apple-like when fresh, date-like when dried. Drought-tolerant and virtually pest-free.",
+          "Chinese date: crisp like an apple when fresh, chewy like a date when dried.",
       },
       {
         id: "wax-jambu",
         name: "Wax Jambu",
         description:
-          "Bell-shaped, waxy fruit with a crisp, refreshing crunch. Light, mildly sweet flavor that's perfect for hot Florida days.",
+          "Bell-shaped fruit with a light sweetness and a crisp, refreshing crunch.",
       },
     ],
   },
   {
     slug: "berries-nuts-spices",
-    name: "Berries, Nuts & Spices",
+    name: "Berries, nuts & spices",
     intro:
-      "From kitchen essentials like turmeric and black pepper to snacking fruits like mulberry, these plants bring flavor and function to your Florida garden.",
+      "Find turmeric, ginger, black pepper, berries, and nut trees for your garden at Tes Farms.",
     icon: "\u{1F33F}",
     varieties: [
       {
         id: "barbados-cherry",
         name: "Barbados Cherry (Acerola)",
         description:
-          "Tiny, tangy cherries loaded with vitamin C. A compact bush that produces prolifically in Florida's heat and humidity.",
+          "A compact bush with small, tangy cherries. Also known as acerola.",
       },
       {
         id: "mulberry",
         name: "Mulberry",
         description:
-          "Sweet, blackberry-like fruit from a fast-growing shade tree. Birds love them too, so plant enough to share.",
+          "Sweet, blackberry-like fruit from a fast-growing shade tree.",
       },
       {
         id: "blackberry",
         name: "Blackberry",
         description:
-          "Thornless varieties adapted to Florida's low-chill climate. Sweet, juicy berries for fresh eating, baking, and preserves.",
+          "Thornless varieties for Florida, with sweet berries for fresh eating and baking.",
       },
       {
         id: "jaboticaba",
         name: "Jaboticaba",
         description:
-          "Grape-like fruit that grows directly on the trunk and branches of the tree. Sweet, juicy flesh with a unique appearance. Slow-growing but worth the wait.",
+          "Sweet, grape-like fruit grows directly on the trunk. A slow-growing tree.",
       },
       {
         id: "miracle-fruit",
         name: "Miracle Fruit",
         description:
-          "Small red berries that make sour foods taste sweet for up to an hour after eating. A fascinating conversation piece and fun for parties.",
+          "Small red berries that temporarily make sour foods taste sweet.",
       },
       {
         id: "gooseberry",
         name: "Gooseberry",
         description:
-          "Tart, translucent berries perfect for pies, jams, and fresh eating. Compact bushes that produce well in Florida conditions.",
+          "Tart berries for pies, jams, or fresh eating, grown on compact bushes.",
       },
       {
         id: "macadamia",
         name: "Macadamia",
         description:
-          "Rich, buttery nuts from an attractive evergreen tree. Takes a few years to bear, but a mature tree produces for decades.",
+          "Buttery nuts from an evergreen tree. Takes several years to begin bearing.",
       },
       {
         id: "cashew",
         name: "Cashew",
         description:
-          "Tropical tree producing the familiar curved nut along with a juicy cashew apple. Grows well in frost-free areas of Central Florida.",
+          "A tropical tree producing cashew nuts and juicy cashew apples. Needs protection from frost.",
       },
       {
         id: "coconut",
         name: "Coconut",
         description:
-          "The iconic tropical palm. Cold-hardy varieties available for Central Florida. Provides coconut water, meat, and oil from your own yard.",
+          "A tropical palm grown for coconut water and flesh. Discuss cold protection with George.",
       },
       {
         id: "turmeric",
         name: "Turmeric",
         description:
-          "Grow your own fresh haldi for cooking. Plant rhizomes in spring, harvest the golden roots in fall. Essential for every Indian kitchen garden.",
+          "Fresh haldi for cooking. Plant the rhizomes in spring and harvest the roots in fall.",
       },
       {
         id: "ginger",
         name: "Ginger",
         description:
-          "Fresh adrak from your own yard. Grows well in partial shade, making it perfect for planting under fruit trees.",
+          "Fresh adrak for the kitchen. Grows in partial shade, including under fruit trees.",
       },
       {
         id: "black-pepper",
         name: "Black Pepper",
         description:
-          "A tropical vine producing the world's most-used spice. Grows on a trellis in humid, shaded conditions.",
+          "A tropical spice vine for a trellis in a humid, shaded spot.",
       },
       {
         id: "moringa",
         name: "Moringa (Drumstick)",
         description:
-          "Leaves, pods, and flowers are all edible. Grows incredibly fast in Florida, producing drumsticks for sambar within the first year.",
+          "Fast-growing drumstick tree with edible leaves, pods, and flowers.",
       },
       {
         id: "tamarind",
         name: "Tamarind",
         description:
-          "Sweet-sour pods essential for South Indian cooking. A beautiful shade tree that eventually produces abundantly.",
+          "A shade tree with sweet-sour pods used in South Indian cooking.",
       },
       {
         id: "allspice",
         name: "Allspice",
         description:
-          "Aromatic berries with flavors of cinnamon, nutmeg, and clove combined. An attractive evergreen tree with fragrant leaves.",
+          "Fragrant leaves and berries with notes of cinnamon, nutmeg, and clove.",
       },
       {
         id: "cacao",
         name: "Cacao",
         description:
-          "Grow your own chocolate. The source of cocoa beans, cacao trees produce colorful pods directly from the trunk. Needs a sheltered, humid spot.",
+          "Colorful pods holding cocoa beans grow on the trunk. Needs a sheltered, humid spot.",
       },
       {
         id: "coffee",
         name: "Coffee",
         description:
-          "Shade-loving shrub producing fragrant white flowers followed by red coffee cherries. Roast your own beans from your backyard.",
+          "A shade-loving shrub with fragrant white flowers, followed by red coffee cherries.",
       },
     ],
   },
   {
     slug: "citrus-trees",
-    name: "Citrus Trees",
+    name: "Citrus trees",
     intro:
-      "Florida and citrus go hand in hand. Our citrus trees are selected for disease resistance and flavor, suited to Central Florida backyards.",
+      "Browse lemons, limes, oranges, and other citrus trees at Tes Farms in Central Florida.",
     icon: "\u{1F34A}",
     varieties: [
       {
         id: "orange",
         name: "Orange (Navel / Valencia)",
         description:
-          "Classic Florida oranges for fresh eating and juicing. Navel for eating out of hand, Valencia for fresh-squeezed juice.",
+          "Navel oranges for fresh eating; Valencia oranges for juicing.",
       },
       {
         id: "grapefruit",
         name: "Grapefruit",
         description:
-          "Large, tangy-sweet citrus that Florida is famous for. Ruby Red and Marsh varieties thrive in our warm climate.",
+          "Large, tangy-sweet citrus, including Ruby Red and Marsh varieties.",
       },
       {
         id: "tangerine",
         name: "Tangerine",
         description:
-          "Easy-peel citrus with intense sweet flavor. Several cold-hardy varieties available for Central Florida yards.",
+          "Sweet, easy-peel citrus, with several varieties suited to Central Florida.",
       },
       {
         id: "lemon",
         name: "Lemon (Meyer)",
         description:
-          "Sweeter and more fragrant than store-bought lemons. Meyer lemons fruit year-round in Florida and grow well in containers.",
+          "Fragrant, sweeter lemons from a tree that grows well in containers.",
       },
       {
         id: "lime",
         name: "Lime (Key / Persian)",
         description:
-          "Key limes for pies and cocktails, Persian limes for everyday cooking. Both produce heavily in Central Florida.",
+          "Key limes for pies and drinks; Persian limes for everyday cooking.",
       },
       {
         id: "kumquat",
         name: "Kumquat",
         description:
-          "Tiny citrus eaten whole, skin and all. Sweet skin with tart flesh, very cold-hardy, and beautiful as an ornamental.",
+          "Small citrus eaten whole, with sweet skin and tart flesh.",
       },
     ],
   },
   {
     slug: "exotic-indian-plants",
-    name: "Exotic Indian Plants",
+    name: "Indian plants & flowers",
     intro:
-      "The plants you grew up with, now growing in your Florida yard. These are the trees, flowers, and herbs that make a house feel like home for Indian families.",
+      "Find curry leaf, jasmine, parijat, tulsi, and other Indian plants at Tes Farms in Central Florida.",
     icon: "\u{1F3E1}",
     varieties: [
       {
         id: "curry-leaf",
         name: "Curry Leaf",
         description:
-          "Fresh kadi patta whenever you need it. No more stale grocery store leaves. Essential for tadka, rasam, chutney, and countless South Indian dishes.",
+          "Fresh kadi patta for tadka, rasam, and chutney, straight from your garden.",
       },
       {
         id: "jasmine-mysore",
         name: "Jasmine (Mysore Mallige)",
         description:
-          "The fragrance of South Indian evenings. Small, intensely perfumed white flowers for the puja room, hair garlands, or simply filling your yard with scent.",
+          "Small, intensely fragrant white flowers for garlands, puja, or the garden.",
       },
       {
         id: "jasmine-grand-duke",
         name: "Jasmine (Grand Duke)",
         description:
-          "Double-petaled jasmine with full, rose-like blooms. Heavier fragrance than single varieties, stunning in containers or garden beds.",
+          "Full, rose-like blooms with a strong fragrance. Suited to containers or garden beds.",
       },
       {
         id: "parijat",
         name: "Parijat (Night Jasmine)",
         description:
-          "Tiny orange-stemmed white flowers that fall like snow each morning. Sacred in Hindu tradition, with a fragrance that fills the entire yard at night.",
+          "Fragrant white flowers with orange stems that bloom at night and fall by morning.",
       },
       {
         id: "neem",
         name: "Neem",
-        description:
-          "A cornerstone of Indian home remedies and organic gardening. Fast-growing shade tree with leaves used for skin care, pest control, and traditional medicine.",
+        description: "A fast-growing shade tree familiar in Indian gardens.",
       },
       {
         id: "tulsi",
         name: "Tulsi (Holy Basil)",
         description:
-          "Sacred plant found in Indian households for centuries. Used in teas, cooking, and daily worship. Several varieties including Rama and Krishna tulsi.",
+          "Aromatic holy basil for tea, cooking, and daily worship. Includes Rama and Krishna varieties.",
       },
       {
         id: "amla",
         name: "Amla (Indian Gooseberry)",
         description:
-          "Tart, vitamin C-rich fruit used in pickles, chutneys, and Ayurvedic preparations. A beautiful ornamental tree that produces reliably in Florida.",
+          "Tart Indian gooseberries for pickles, chutneys, and preserves.",
       },
       {
         id: "betel-leaf",
         name: "Betel Leaf (Paan)",
         description:
-          "Heart-shaped leaves used for paan and in traditional celebrations. A climbing vine that thrives in humid, shaded spots in Florida gardens.",
+          "A climbing vine with heart-shaped paan leaves. Prefers a humid, shaded spot.",
       },
     ],
   },
